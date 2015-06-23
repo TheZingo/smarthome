@@ -32,11 +32,15 @@ public class HueBindingConstants {
     public final static ThingTypeUID THING_TYPE_LLC011 = new ThingTypeUID(BINDING_ID, "LLC011");
     public final static ThingTypeUID THING_TYPE_LLC012 = new ThingTypeUID(BINDING_ID, "LLC012");
     public final static ThingTypeUID THING_TYPE_LLC013 = new ThingTypeUID(BINDING_ID, "LLC013");
+	public final static ThingTypeUID THING_TYPE_LLC014 = new ThingTypeUID(BINDING_ID, "LLC014");
     public final static ThingTypeUID THING_TYPE_LST001 = new ThingTypeUID(BINDING_ID, "LST001");
+	public final static ThingTypeUID THING_TYPE_LWB001 = new ThingTypeUID(BINDING_ID, "LWB001");
     public final static ThingTypeUID THING_TYPE_LWB004 = new ThingTypeUID(BINDING_ID, "LWB004");
     public final static ThingTypeUID THING_TYPE_LWL001 = new ThingTypeUID(BINDING_ID, "LWL001");
+	public final static ThingTypeUID THING_TYPE_LLM001 = new ThingTypeUID(BINDING_ID, "LLM001");
     public final static ThingTypeUID THING_TYPE_CLASSIC_A60_RGBW = new ThingTypeUID(BINDING_ID, "Classic_A60_RGBW");
     public final static ThingTypeUID THING_TYPE_SURFACE_LIGHT_TW = new ThingTypeUID(BINDING_ID, "Surface_Light_TW");
+	public final static ThingTypeUID THING_TYPE_GARDENSPOT_RGB = new ThingTypeUID(BINDING_ID, "Gardenspot_RGB");
     public final static ThingTypeUID THING_TYPE_ZLL_LIGHT = new ThingTypeUID(BINDING_ID, "ZLL_Light");
 
     // List all channels

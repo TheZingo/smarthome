@@ -22,10 +22,14 @@ import static org.eclipse.smarthome.binding.hue.HueBindingConstants.THING_TYPE_L
 import static org.eclipse.smarthome.binding.hue.HueBindingConstants.THING_TYPE_LLC011;
 import static org.eclipse.smarthome.binding.hue.HueBindingConstants.THING_TYPE_LLC012;
 import static org.eclipse.smarthome.binding.hue.HueBindingConstants.THING_TYPE_LLC013;
+import static org.eclipse.smarthome.binding.hue.HueBindingConstants.THING_TYPE_LLC014;
 import static org.eclipse.smarthome.binding.hue.HueBindingConstants.THING_TYPE_LST001;
+import static org.eclipse.smarthome.binding.hue.HueBindingConstants.THING_TYPE_LWB001;
 import static org.eclipse.smarthome.binding.hue.HueBindingConstants.THING_TYPE_LWB004;
 import static org.eclipse.smarthome.binding.hue.HueBindingConstants.THING_TYPE_LWL001;
+import static org.eclipse.smarthome.binding.hue.HueBindingConstants.THING_TYPE_LLM001;
 import static org.eclipse.smarthome.binding.hue.HueBindingConstants.THING_TYPE_SURFACE_LIGHT_TW;
+import static org.eclipse.smarthome.binding.hue.HueBindingConstants.THING_TYPE_GARDENSPOT_RGB;
 import static org.eclipse.smarthome.binding.hue.HueBindingConstants.THING_TYPE_ZLL_LIGHT;
 
 import java.util.Set;
@@ -68,9 +72,10 @@ public class HueLightHandler extends BaseThingHandler implements LightStatusList
 
     public final static Set<ThingTypeUID> SUPPORTED_THING_TYPES = Sets.newHashSet(THING_TYPE_LCT001, THING_TYPE_LCT002,
             THING_TYPE_LCT003, THING_TYPE_LLC001, THING_TYPE_LLC006, THING_TYPE_LLC007, THING_TYPE_LLC010,
-            THING_TYPE_LLC011, THING_TYPE_LLC012, THING_TYPE_LLC013, THING_TYPE_LWL001, THING_TYPE_LST001,
-            THING_TYPE_LCT003, THING_TYPE_LWB004, THING_TYPE_CLASSIC_A60_RGBW, THING_TYPE_SURFACE_LIGHT_TW,
-            THING_TYPE_ZLL_LIGHT);
+            THING_TYPE_LLC011, THING_TYPE_LLC012, THING_TYPE_LLC013, THING_TYPE_LLC014,
+			THING_TYPE_LWL001, THING_TYPE_LST001, THING_TYPE_LCT003, THING_TYPE_LWB001, THING_TYPE_LWB004, 
+			THING_TYPE_LLM001, THING_TYPE_CLASSIC_A60_RGBW, THING_TYPE_SURFACE_LIGHT_TW, THING_TYPE_GARDENSPOT_RGB, 
+			THING_TYPE_ZLL_LIGHT);
 
     private static final int DIM_STEPSIZE = 30;
 
